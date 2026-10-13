@@ -4,7 +4,7 @@ Three responsive concepts for Ronin Security Services (M) Sdn. Bhd.: Premium Cor
 
 ## Preview locally
 
-Run `python3 -m http.server 8080 --directory dist`, then open http://localhost:8080. Serve the `dist` directory at the domain root because shared assets use root-relative paths. No build step or dependencies are required.
+Run `python3 -m http.server 8080 --directory dist`, then open http://localhost:8080. All site paths support hosting in a subdirectory. No build step or dependencies are required.
 
 ## Structure
 
@@ -19,4 +19,6 @@ Enquiry forms are demonstrations only; they do not send or store submissions. Ne
 
 Original client forms, account credentials and unredacted source documents are excluded. Previously redacted identifiers and watermarks remain in the published images. Company logos, photos and documents remain their owners’ property. The illustrative architecture image is credited in the site footer.
 
-Current private preview: https://ronin-security-design.kathikgesuj.chatgpt.site/
+GitHub Pages preview: https://kjayamani96.github.io/ronin-security-design/
+
+The `gh-pages` branch contains the deployed contents of `dist`. After changes, commit on `main`, then run `git subtree split --prefix dist -b pages-update` and `git push origin pages-update:gh-pages` to publish.
