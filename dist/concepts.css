@@ -18,3 +18,6 @@
 
 /* Selected website: no concept navigation. */
 .concept-bold .site-header{top:0}.concept-bold .brand img{background:#fff;padding:5px;border-radius:5px;width:108px;height:100px;object-fit:contain}.concept-bold .footer-top .brand img{width:112px;height:104px}html{scroll-padding-top:140px}@media(max-width:800px){.concept-bold .brand img{width:84px;height:82px;padding:4px}.concept-bold .site-header{height:108px}.concept-bold .site-header nav{max-height:calc(100dvh - 170px)}html{scroll-padding-top:120px}}@media(max-width:560px){.concept-bold .brand img{width:80px;height:80px}.concept-bold .site-header .brand>span{font-size:18px}}@media(max-width:360px){.concept-bold .brand img{width:66px;height:68px;padding:3px}.concept-bold .site-header .brand>span{font-size:16px}.concept-bold .brand small{font-size:6px}}
+
+/* Preserve the supplied transparent logo without a background tile. */
+.concept-bold .brand img{background:transparent;padding:0;border-radius:0}
