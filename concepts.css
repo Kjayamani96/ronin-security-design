@@ -54,3 +54,5 @@
 .concept-bold .trust-band>div:not(.expertise-highlight){align-self:start}
 
 .concept-bold .service-icon{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:24px;height:24px}.concept-bold .service-icon svg{display:block;width:24px;height:24px}.concept-bold .service-choice[aria-pressed="true"] .service-icon{color:#111a21}
+
+.credential-icon{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;flex-shrink:0}.credential-icon svg{display:block;width:24px;height:24px}
