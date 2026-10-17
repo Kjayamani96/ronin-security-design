@@ -56,3 +56,5 @@
 .concept-bold .service-icon{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:24px;height:24px}.concept-bold .service-icon svg{display:block;width:24px;height:24px}.concept-bold .service-choice[aria-pressed="true"] .service-icon{color:#111a21}
 
 .credential-icon{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;flex-shrink:0}.credential-icon svg{display:block;width:24px;height:24px}
+
+.contact-icon{display:inline-block;width:24px;height:24px;flex-shrink:0;vertical-align:middle}.contact-actions strong{display:flex;align-items:center;gap:10px}.contact-actions strong .contact-value{font:inherit;color:inherit;letter-spacing:inherit;text-transform:none;min-width:0;overflow-wrap:anywhere}
