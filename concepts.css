@@ -27,3 +27,10 @@
 #enquiry-form{scroll-margin-top:8px}.concept-bold .mobile-contact{grid-template-columns:.8fr 1.2fr}.concept-bold .mobile-contact a{padding-inline:8px;font-size:12px}@media(max-width:360px){.concept-bold .mobile-contact a{font-size:11px}}
 
 .concept-bold .trust-band .expertise-label br{display:block}
+
+/* Emphasise security experience while keeping the supporting details quiet. */
+.concept-bold .trust-band .expertise-label{font-size:14px;font-weight:700;line-height:1.45;color:#111a21}
+.concept-bold .trust-band .trust-large{font-weight:800;flex-shrink:0}
+.concept-bold .trust-band strong{font-weight:500}
+.concept-bold .trust-band>a span{flex-shrink:0}
+@media(max-width:560px){.concept-bold .trust-band .expertise-label{font-size:13px}.concept-bold .trust-band>a{align-self:center;line-height:1.5}}
