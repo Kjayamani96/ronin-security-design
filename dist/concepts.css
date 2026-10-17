@@ -52,3 +52,5 @@
 @media(max-width:360px){.concept-bold .trust-band .trust-large{font-size:52px}.concept-bold .trust-band .expertise-label{font-size:21px}}
 
 .concept-bold .trust-band>div:not(.expertise-highlight){align-self:start}
+
+.concept-bold .service-icon{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:24px;height:24px}.concept-bold .service-icon svg{display:block;width:24px;height:24px}.concept-bold .service-choice[aria-pressed="true"] .service-icon{color:#111a21}
