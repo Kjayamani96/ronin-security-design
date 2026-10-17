@@ -34,3 +34,21 @@
 .concept-bold .trust-band strong{font-weight:500}
 .concept-bold .trust-band>a span{flex-shrink:0}
 @media(max-width:560px){.concept-bold .trust-band .expertise-label{font-size:13px}.concept-bold .trust-band>a{align-self:center;line-height:1.5}}
+
+/* Full-width experience headline with supporting credentials beneath. */
+.concept-bold .trust-band{grid-template-columns:1fr 1.25fr 1fr;gap:24px 32px;padding-block:32px}
+.concept-bold .trust-band .expertise-highlight{grid-column:1/-1;display:flex;flex-direction:row;align-items:center;justify-content:center;gap:20px;padding-bottom:26px;border-bottom:1px solid #111a2133}
+.concept-bold .trust-band .trust-large{font-size:72px;line-height:1;letter-spacing:-.05em}
+.concept-bold .trust-band .trust-large>span{font-size:.6em}
+.concept-bold .trust-band .expertise-label{font-size:clamp(24px,3vw,42px);font-weight:800;line-height:1.15}
+.concept-bold .trust-band strong{font-weight:700}
+@media(max-width:600px){
+.concept-bold .trust-band{grid-template-columns:1fr 1fr;gap:22px 18px;padding-block:28px}
+.concept-bold .trust-band .expertise-highlight{gap:14px;padding-bottom:24px;justify-content:flex-start}
+.concept-bold .trust-band .trust-large{font-size:60px}
+.concept-bold .trust-band .expertise-label{font-size:24px;max-width:240px}
+.concept-bold .trust-band>a{grid-column:1/-1;border-top:1px solid #111a2133;padding-top:18px;justify-content:space-between;font-size:13px}
+}
+@media(max-width:360px){.concept-bold .trust-band .trust-large{font-size:52px}.concept-bold .trust-band .expertise-label{font-size:21px}}
+
+.concept-bold .trust-band>div:not(.expertise-highlight){align-self:start}
