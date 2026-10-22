@@ -60,3 +60,8 @@
 .contact-icon{display:inline-block;width:24px;height:24px;flex-shrink:0;vertical-align:middle}.contact-actions strong{display:flex;align-items:center;gap:10px}.contact-actions strong .contact-value{font:inherit;color:inherit;letter-spacing:inherit;text-transform:none;min-width:0;overflow-wrap:anywhere}
 
 .plain-arrow{display:inline-block;width:1em;height:1em;min-width:1em;flex-shrink:0;vertical-align:-.12em}
+
+/* Give the logo tagline more room while preserving the mobile wordmark. */
+.concept-bold .brand img{width:132px;height:108px}
+@media(max-width:800px){.concept-bold .brand img{width:100px;height:84px}}
+@media(max-width:360px){.concept-bold .brand img{width:80px;height:72px}}
