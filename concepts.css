@@ -79,3 +79,5 @@
 @media(max-width:800px){.coverage-hero{margin:0 24px 28px}.coverage-canvas{min-height:320px}.coverage-heading{padding:24px 24px 0}.coverage-footer{padding:18px 24px 22px}.concept-bold .coverage-heading h2{font-size:38px}}
 @media(max-width:400px){.coverage-hero{margin-inline:16px}.coverage-canvas{min-height:260px}.coverage-heading,.coverage-footer{padding-left:18px;padding-right:18px}.coverage-caption{align-items:flex-start}.state-list button{font-size:10px;padding:8px}.map-stage{left:18px;font-size:10px}}
 @media(prefers-reduced-motion:reduce){.map-arrived .pin-drop{animation:none;opacity:1;transform:none}}
+
+.service-story figure img[src*="k9-handler-dogs"]{object-fit:contain;background:#17252e;height:620px;max-height:620px}@media(max-width:600px){.service-story figure img[src*="k9-handler-dogs"]{height:auto;max-height:none}}
