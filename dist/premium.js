@@ -25,3 +25,8 @@ function showEnquiryForm(){const form=document.querySelector('#enquiry-form');if
 document.querySelector('.mobile-contact a[href$="#enquiry-form"]')?.addEventListener('click',event=>{if(document.querySelector('#enquiry-form')){event.preventDefault();if(location.hash!=='#enquiry-form')history.pushState(null,'','#enquiry-form');showEnquiryForm();}});
 window.addEventListener('hashchange',()=>{if(location.hash==='#enquiry-form')showEnquiryForm();});
 window.addEventListener('load',()=>{if(location.hash==='#enquiry-form')document.fonts.ready.then(()=>requestAnimationFrame(showEnquiryForm));});
+
+const careerForm=document.querySelector('#career-form');
+const careerResume=document.querySelector('#career-resume');
+careerResume?.addEventListener('change',()=>{const file=careerResume.files[0];let message='';if(file&&file.size>5*1024*1024)message='Please choose a résumé smaller than 5 MB.';else if(file&&!/\.(pdf|doc|docx)$/i.test(file.name))message='Please choose a PDF, DOC or DOCX file.';careerResume.setCustomValidity(message);if(message)careerResume.reportValidity();});
+careerForm?.addEventListener('submit',event=>{event.preventDefault();document.querySelector('#career-result').textContent='Preview complete. No application, IC number or résumé has been uploaded, sent or saved.';});
