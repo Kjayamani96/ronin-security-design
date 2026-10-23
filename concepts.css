@@ -81,3 +81,5 @@
 @media(prefers-reduced-motion:reduce){.map-arrived .pin-drop{animation:none;opacity:1;transform:none}}
 
 .service-story figure img[src*="k9-handler-dogs"]{object-fit:contain;background:#17252e;height:620px;max-height:620px}@media(max-width:600px){.service-story figure img[src*="k9-handler-dogs"]{height:auto;max-height:none}}
+
+.concept-bold #service-photo[src*="security-systems-team"]{object-fit:contain;background:#17252e}.service-story figure img[src*="security-systems-team"]{object-fit:contain;max-height:none;height:auto}
