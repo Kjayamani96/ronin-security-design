@@ -83,3 +83,32 @@
 .service-story figure img[src*="k9-handler-dogs"]{object-fit:contain;background:#17252e;height:620px;max-height:620px}@media(max-width:600px){.service-story figure img[src*="k9-handler-dogs"]{height:auto;max-height:none}}
 
 .concept-bold #service-photo[src*="security-systems-team"]{object-fit:contain;background:#17252e}.service-story figure img[src*="security-systems-team"]{object-fit:contain;max-height:none;height:auto}
+
+/* Approved October 2026 company brief. */
+.concept-bold .brief-section{border-top:1px solid #344852}
+.concept-bold .brief-section .section-heading h2{max-width:760px}
+.brief-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:#344852;border:1px solid #344852}
+.brief-grid article{background:#14242f;padding:30px 24px;min-width:0}
+.brief-number{display:block;color:#e5b746;font-size:12px;letter-spacing:.12em;margin-bottom:28px}
+.brief-grid h3{font-family:Manrope,sans-serif;font-size:20px;line-height:1.4;margin:0 0 16px;text-transform:none}
+.brief-grid p,.rba-experience p,.community-contribution p{color:#b8c7cf;font-size:15px;line-height:1.8;margin:0}
+#why-ronin .brief-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.rba-experience{border-left:3px solid #e5b746;background:#1b2d39;padding:32px;margin-top:32px;display:grid;grid-template-columns:1fr 2fr;gap:32px}
+.rba-experience h3{font-size:26px;line-height:1.3;margin:0}
+.community-contribution{border-top:1px solid #44535c;margin-top:48px;padding-top:36px}
+.community-contribution>h3{font-size:28px;margin:12px 0}
+.community-contribution>article{margin-top:24px;padding:28px;background:#14242f;border:1px solid #344852;max-width:720px}
+.community-contribution article h3{font-size:22px}
+.community-contribution .text-link{margin-top:20px}
+.enquiry-extra-fields{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.enquiry-extra-fields label{min-width:0}
+#enquiry-form input,#enquiry-form select{min-width:0;width:100%;max-width:100%;box-sizing:border-box}
+.preview-notice{padding:16px;border-left:2px solid #e5b746;background:#13222d}
+#enquiry-form button{white-space:normal;text-align:left;line-height:1.5;gap:18px}
+#enquiry-form button svg{flex-shrink:0}
+.concept-bold .expertise-highlight .expertise-label{max-width:650px;font-size:clamp(22px,3vw,38px)}
+.concept-bold .site-header nav{gap:12px;font-size:11px}
+.concept-bold .footer-top>.text-link{max-width:270px;white-space:normal}
+@media(min-width:1101px) and (max-width:1400px){.concept-bold .site-header{padding-inline:2%;gap:12px}.concept-bold .site-header .brand img{width:90px;height:78px}.concept-bold .site-header .brand>span{font-size:19px}.concept-bold .site-header nav{gap:10px;font-size:10px}.concept-bold .header-cta{font-size:9px;padding:12px 10px}}
+@media(max-width:1100px){.brief-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#why-ronin .brief-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.concept-bold .site-header nav{overflow-y:auto}.rba-experience{grid-template-columns:1fr;gap:18px}}
+@media(max-width:600px){.brief-grid,#why-ronin .brief-grid{grid-template-columns:1fr}.brief-grid article{padding:24px}.brief-number{margin-bottom:16px}.rba-experience{padding:24px}.enquiry-extra-fields{grid-template-columns:1fr}.concept-bold .bold-hero-copy>.button{font-size:11px;white-space:normal;line-height:1.5;gap:14px}.concept-bold .site-header nav a{padding:10px 16px;min-height:42px}.community-contribution>article{padding:22px}}
