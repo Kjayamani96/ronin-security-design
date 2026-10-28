@@ -29,4 +29,4 @@ window.addEventListener('load',()=>{if(location.hash==='#enquiry-form')document.
 const careerForm=document.querySelector('#career-form');
 const careerResume=document.querySelector('#career-resume');
 careerResume?.addEventListener('change',()=>{const file=careerResume.files[0];let message='';if(file&&file.size>5*1024*1024)message='Please choose a résumé smaller than 5 MB.';else if(file&&!/\.(pdf|doc|docx)$/i.test(file.name))message='Please choose a PDF, DOC or DOCX file.';careerResume.setCustomValidity(message);if(message)careerResume.reportValidity();});
-careerForm?.addEventListener('submit',event=>{event.preventDefault();document.querySelector('#career-result').textContent='Preview complete. No application, IC / passport number or résumé has been uploaded, sent or saved.';});
+careerForm?.addEventListener('submit',event=>{event.preventDefault();document.querySelector('#career-result').textContent='Preview complete. No application details or résumé have been uploaded, sent or saved.';});
