@@ -1,6 +1,6 @@
 # Future content — not published
 
-Forms remain demonstrations until enquiry and careers recipients and a secure submission service are configured. Do not collect real IC/passport numbers or résumés in the preview. Configure routing, consent/privacy information, file restrictions, delivery failure handling and end-to-end delivery verification before activating submissions.
+Enquiry and careers forms now use Tally embeds (BEE2WY and peekpE). Notifications are configured to the current Tally account email. Careers collects no IC/passport number; identity details are deferred to the interview. Résumé upload: one optional PDF/DOC/DOCX up to 5 MB. Confirm email receipt with a sample submission and arrange company ownership, privacy information and retention before recruitment rollout.
 
 ## Case study template
 - Client name (written permission required), or anonymised sector.
