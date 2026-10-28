@@ -112,3 +112,11 @@
 @media(min-width:1101px) and (max-width:1400px){.concept-bold .site-header{padding-inline:2%;gap:12px}.concept-bold .site-header .brand img{width:90px;height:78px}.concept-bold .site-header .brand>span{font-size:19px}.concept-bold .site-header nav{gap:10px;font-size:10px}.concept-bold .header-cta{font-size:9px;padding:12px 10px}}
 @media(max-width:1100px){.brief-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#why-ronin .brief-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.concept-bold .site-header nav{overflow-y:auto}.rba-experience{grid-template-columns:1fr;gap:18px}}
 @media(max-width:600px){.brief-grid,#why-ronin .brief-grid{grid-template-columns:1fr}.brief-grid article{padding:24px}.brief-number{margin-bottom:16px}.rba-experience{padding:24px}.enquiry-extra-fields{grid-template-columns:1fr}.concept-bold .bold-hero-copy>.button{font-size:11px;white-space:normal;line-height:1.5;gap:14px}.concept-bold .site-header nav a{padding:10px 16px;min-height:42px}.community-contribution>article{padding:22px}}
+
+/* Live Tally forms resize to their content, including upload and validation states. */
+.concept-bold .tally-form-panel{min-width:0;width:100%;box-sizing:border-box;background:#1b2d39;border:1px solid #35434e;padding:32px;align-self:start}
+.concept-bold #enquiry-form.tally-form-panel{background:#233542;padding:28px}
+.tally-form-panel iframe{display:block;width:100%;max-width:100%;border:0;color-scheme:normal}
+.tally-fallback{font-size:12px;line-height:1.6;color:#b8c7cf;margin:20px 0 0}
+.tally-fallback a{color:#e5b746;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:600px){.concept-bold .tally-form-panel,.concept-bold #enquiry-form.tally-form-panel{padding:20px 14px}.tally-fallback{font-size:12px}}
