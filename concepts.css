@@ -123,3 +123,5 @@
 
 /* Preserve the full client-supplied service photograph on every screen. */
 .concept-bold #service-photo[src*="event-security-team"]{object-fit:contain;background:#17252e}.service-story figure img[src*="event-security-team"]{object-fit:contain;max-height:none;height:auto}
+
+.concept-bold #service-photo[src*="body-worn-camera-officer"]{object-fit:contain;background:#17252e}.service-story figure img[src*="body-worn-camera-officer"]{object-fit:contain;max-height:none;height:auto}
