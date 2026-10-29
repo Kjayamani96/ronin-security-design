@@ -24,7 +24,7 @@
 
 .site-location{border:0;padding:0;margin:0;min-width:0}.site-location legend{font-size:13px;font-weight:600;padding:0;margin-bottom:10px}.site-location .location-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.location-fields label{min-width:0}.location-fields input{min-width:0;width:100%}
 
-#enquiry-form{scroll-margin-top:8px}.concept-bold .mobile-contact{grid-template-columns:.8fr 1.2fr}.concept-bold .mobile-contact a{padding-inline:8px;font-size:12px}@media(max-width:360px){.concept-bold .mobile-contact a{font-size:11px}}
+#enquiry-form{scroll-margin-top:8px}.concept-bold .mobile-contact{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.concept-bold .mobile-contact a{padding-inline:8px;font-size:12px}@media(max-width:360px){.concept-bold .mobile-contact a{font-size:11px}}
 
 .concept-bold .trust-band .expertise-label br{display:block}
 
